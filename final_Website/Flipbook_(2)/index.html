@@ -1,0 +1,301 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Flipbook</title>
+     <meta name="description" content="Flipbook  ">
+     <meta name="robots" content="index, nofollow">
+    <meta name="viewport" content="width = 1050, user-scalable = no" />
+    <meta property="og:image" content="https://www.flipbookpdf.net/web/files/flipbooks//1-thumb.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:400,700|Ubuntu:400,700|Great+Vibes' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="flipbook/extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="flipbook/extras/jquery-ui-1.8.20.full.min.js"></script>
+    <script type="text/javascript" src="flipbook/extras/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="flipbook/lib/hash.js"></script>
+        <script type="text/javascript">
+        var flipbookcfg={
+            url: ".\/data\/",
+            cover: 0,
+            numPages: 6,
+            textTip: "Press ESC to exit. Use the keyboard arrows to change the page.",
+            background: ".\/flipbook\/files\/backgrounds\/black_wall.jpg",
+            showSlider: "null",
+            showSocial: "0",
+            showformat: "1",
+            companyLogo: "https:\/\/www.flipbookpdf.net\/web\/site\/img\/logonet.png",
+            title: "",
+            tagtitle: "Flipbook", 
+           description: "", 
+            showDownload: "null",
+            backlink: "https:\/\/www.flipbookpdf.net",
+            opacity: "0.8",
+            name: "78e16fce272dd2c584b7de16d1cba5569a1be9c9202010.pdf",
+            direction: "ltr", 
+            flipsound: "null", 
+            widthimg: "1560",
+            heightimg: "2200" 
+            
+        };
+    </script>
+    <style>
+    .logo-backs {
+    opacity: 0.8;
+}
+.form-element1 input[type=text], .form-element1 select, .form-element1 textarea {
+border: 1px solid gray;
+padding: 5px;
+min-width: 74px;
+resize: vertical;
+}
+
+.form-element1 {
+margin-top: 10px;
+margin-bottom: 12px;
+margin-left: 65px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+  .config {
+    width:5em;
+  }
+  .down-pdf{
+    width:5em;
+  }
+    .fs{
+   width:5.3em;
+   padding: 0.2em;
+  }
+
+
+.zoom-icon {
+    width: 3.9em!important;
+    height: 4em!important;
+    background-size: 16em 4em!important;
+}
+  
+  .zoom-icon-in.zoom-icon-in-hover {
+    background-position: -4em 0;
+  }
+  .zoom-icon-out {
+    background-position: -8em 0;
+}
+
+#prev {
+width: 5.4em;
+    height: 4.5em;
+    background-size: 5.4em 4.6em;
+}
+#next {
+width: 5.4em;
+    height: 4.6em;
+    background-size: 5.4em 4.6em;
+}
+
+.controls-pdf {
+    top: 2em;
+}
+  
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape){
+ .config {
+    width:2.5em;
+  }
+  .down-pdf{
+    width:2.5em;
+  }
+    .fs{
+width: 2.6em;
+    padding: 0.1em;
+  }
+
+
+.zoom-icon {
+    width: 2em!important;
+    height: 2em!important;
+    background-size: 8em 2em!important;
+}
+  
+  .zoom-icon-in.zoom-icon-in-hover {
+    background-position: -2em 0;
+  }
+  .zoom-icon-out {
+    background-position: -4em 0;
+}
+
+#prev {
+width: 2.7em;
+    height: 2.3em;
+    background-size: 2.7em 2.3em;
+}
+#next {
+width: 2.7em;
+    height: 2.3em;
+    background-size: 2.7em 2.3em;
+}
+
+.controls-pdf {
+    top: 1em;
+}
+}
+
+@media only screen and (min-device-width: 481px) {
+.config {
+    width:27px;
+  }
+  .down-pdf{
+    width:28px;
+  }
+  .fs{
+    width:24px;
+  }  
+  
+}
+
+
+
+
+</style>
+</head>
+<body>
+ 
+
+
+<div class="logo-backs"></div>
+
+<audio id="audio" src="flipbook/pics/page-flip.mp3"></audio>
+
+
+
+    <div class="flipbook-title" style="display: none;">
+        <h1></h1>
+        <h2></h2>
+        <p></p>
+    </div>
+    
+
+
+
+    
+
+    
+    <div id="canvas">
+
+        <!--<div class="close-icon">
+            <img src="flipbook/pics/close.png" style="cursor: pointer;" />
+        </div>
+        -->
+
+        
+        <div class="controls-pdf">
+        <div class="controlzoom" style="display:none">
+        <a href="#" id="zoomin" style="font-size:16px; color:#808080; text-decoration: none; font-weight:bold"><img src="flipbook/pics/zoomin.png" /></a>
+         <a href="#" id="zoomout" style="font-size:16px; color:#808080; text-decoration: none; font-weight:bold"><img src="flipbook/pics/zoomout.png" /></a>
+
+</div>
+        
+                        
+             
+            <a href="./PDF/78e16fce272dd2c584b7de16d1cba5569a1be9c9202010.pdf" target="_blank" ><img style="display:none;" src="flipbook/pics/down-pdf.png" /></a>
+            <div class="zoom-icon zoom-icon-in"></div>
+            &nbsp;&nbsp;<input type="image" class="fs" src="flipbook/pics/fs.png" onclick="openFullscreen();"/>
+             <a href="#" id="prev"></a>
+            <a href="#" id="next"></a>
+        </div>
+
+        <div class="magazine-viewport" id="flipfull">
+         
+        
+            <div class="container">
+                <div class="magazine">
+                    
+                    <div ignore="1" class="next-button"></div>
+                    <div ignore="1" class="previous-button"></div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="slider-bar" class="turnjs-slider">
+                        <div id="slider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       
+    
+    <script type="text/javascript" src="flipbook/js/core.js"></script>
+    <script type="text/javascript">
+        yepnope({
+            test: Modernizr.csstransforms,
+            yep: ['flipbook/lib/turn.min.js'],
+            nope: ['flipbook/lib/turn.html4.min.js', 'flipbook/css/jquery.ui.html4.css'],
+            both: ['flipbook/lib/zoom.min.js', 'flipbook/css/jquery.ui.css', 'flipbook/js/magazineoff.js', 'flipbook/css/magazine.css'],
+            complete: loadApp
+        });
+    </script>
+    
+    
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144220429-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144220429-1');
+</script>    
+    
+ 
+
+       
+       <script>
+var elem = document.getElementById("flipfull");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  } else if (elem.webkitEnterFullscreen) {
+       elem.webkitEnterFullscreen(); //for iphone this code worked
+  }
+}
+</script>
+
+  
+
+   
+</body>
+</html>
+
