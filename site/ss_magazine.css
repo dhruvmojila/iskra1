@@ -1,0 +1,206 @@
+* {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.slid{
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    background: rgb(0, 0, 0);
+  }
+ .logo_anchor {
+     display: block;
+     margin: 20px auto 20px auto;
+     width: 229.047px; 
+     }
+ /* .logo{
+    height: 130px;
+    width: auto;
+    display:block;
+}  */
+.links {
+    display: block;
+    text-align: center;
+}
+.headfont{
+    font-size: 25px;
+    color: white;
+}
+.headfont:active{
+    color: rgb(255, 255, 255);
+}
+.background{
+    background-image: url(trial_bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.fc {
+    padding-bottom: 0px;
+    padding-top: 40px;
+    
+}
+.font{
+    color: white;
+}
+
+.p_block-1:hover {
+  cursor: pointer;
+ content: url(2.jpg);
+  color: #0ea1a1;
+  
+}
+
+.m_block-1:hover {
+    cursor: pointer;
+   content: url(m_index.jpg);
+    color: #0ea1a1;
+    
+}
+
+.m_block-2:hover {
+    cursor: pointer;
+}
+.m_block-3:hover {
+    cursor: pointer;
+}
+.m_block-4:hover {
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
+.mom{
+    margin-left: 5vw;
+    margin-top : 5vw;
+    margin-bottom : 0;
+    margin-right : 0;
+    padding-right: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f100;
+    border-radius: 5px;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    /* background: #2196F3; */
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    /* border-left: none; Prevent double borders */
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  
+  form.example button:hover {
+    background: #0ea1a1;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ .search_btn {
+    float: right;
+    padding-right: 30px;
+ }
+
+ /* Dropdown Button */
+.dropbtn {
+    background-color: #0ea1a1;
+    color: white;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: 250px; */
+    height: 45px;
+    text-align: center center;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #0ea1a1;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .example{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:#0ea1a1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  .img09{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
